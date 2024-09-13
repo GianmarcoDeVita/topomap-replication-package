@@ -223,7 +223,7 @@ for model_ in mutants:
 # Save mutation analysis results
 file_out = open("reuters_misclassification_distribution_and_mutant_killing.csv", "w")
 file_out.write("Mutant," + ",".join(class_names) +
-               "Total,Killed_WLX,Killed_GLM\n")
+               ",Total,Killed_WLX,Killed_GLM\n")
 file_out.flush()
 
 for mutant in mutants:
