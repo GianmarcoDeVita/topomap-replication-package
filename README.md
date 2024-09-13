@@ -17,4 +17,4 @@ For each subject XXXX, within folder ``Pipeline2``:
   - the script included in file ``killing_propagation.py`` computes metrics useful to answer RQ3.
   - the script included in ``get_topology/get_topology.py`` produces a two-panel plot, where the left panel is a graphical spatial depiction of the test set, obtained through t-SNE and highlighting the different clusters, while the right panel includes a heatmap showing, for each mutant, the clusters included in the aggregation killing that mutant.
 
-The trained origianal and mutated models are taken from the DeepCrime replication package, which is publicly available online on Zenodo. For that, we refer to the reference included in the research paper.
+The trained original and mutated models are taken from the DeepCrime replication package, which is publicly available online on Zenodo. For that, we refer to the reference included in the research paper.
