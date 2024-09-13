@@ -5,7 +5,7 @@ There is a folder for each application subject.
 
 ## Pipeline1 - Cluster Generation and Evaluation Pipeline 
 
-For each subject XXXX, within folder ``Pipeline1``, the cluster generation and evaluation pipeline is implemented in a file named ``XXXX_best_K_cluster_evaluation.py`` or ``XXXX_dnn_cluster_evaluation.py``. The trained DNNs models for evaluating have been saved at each empirical iterations, but due to the repository restrictions, will be made available later.
+For each subject XXXX, within folder ``Pipeline1``, the cluster generation and evaluation pipeline is implemented in a file named ``XXXX_best_K_cluster_evaluation.py`` or ``XXXX_dnn_cluster_evaluation.py``. The trained DNNs models for evaluating have been saved at each empirical iteration, but due to the repository restrictions, will be made available later.
 
 ## Pipeline2 - Evaluation Based on Mutation Analysis
 
