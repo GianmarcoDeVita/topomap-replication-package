@@ -75,7 +75,8 @@ actual_K = len(np.unique(y_cluster_labels_test))
 
 # Get killable mutants
 df = pd.read_csv('../misclassifications_distribution/reuters_misclassification_distribution_and_mutant_killing.csv', delimiter=',')
-killable_mutants = df.index[df['Killed_WLX'] == True].tolist()
+killable_mutants_ = df.index[df['Killed_WLX'] == True].tolist()
+killable_mutants = (df["Mutant"][killable_mutants_]).tolist()
 
 # Load selected clusters by mutant
 selected_clusters_by_mutant = []
