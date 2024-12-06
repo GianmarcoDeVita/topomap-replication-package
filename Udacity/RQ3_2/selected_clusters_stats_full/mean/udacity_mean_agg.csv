@@ -1,0 +1,9 @@
+MO,RowCount,KillFlagHalf,KillFlagFull
+change_epochs,7,1,1
+change_label,4,1,1
+change_learning_rate,3,1,1
+change_loss_function,10,1,0
+change_optimisation_function,3,1,0
+delete_training_data,5,1,0
+make_output_classes_overlap,6,1,0
+unbalance_train_data,2,1,0

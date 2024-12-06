@@ -1,0 +1,14 @@
+MO,RowCount,KillFlagHalf,KillFlagFull
+add_activation_function,7,0.8,0.0
+add_noise,3,0.4,0.0
+add_weights_regularisation,12,0.0,0.0
+change_activation_function,5,0.4,0.0
+change_batch_size,2,1.0,0.6
+change_epochs,4,0.6,0.0
+change_label,4,0.4,0.0
+change_learning_rate,3,0.2,0.0
+change_loss_function,9,0.9,0.0
+change_optimisation_function,2,1.0,0.5
+change_weights_initialisation,7,0.1,0.0
+delete_training_data,3,0.4,0.0
+make_output_classes_overlap,2,1.0,0.4
