@@ -151,5 +151,5 @@ print("Third: ", cluster_rho_a_s[2])
 
 print("---------------------------")
 
-for perc in [0.50, 0.25, 0.10]:
+for perc in [0.25, 0.15, 0.05]:
     print(perc, "% ", sum(item > perc for item in cluster_rho_a_s)/len(cluster_rho_a_s))

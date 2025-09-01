@@ -49,6 +49,8 @@ class_names = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 print("Our class names: {}".format(class_names, ))
 
 """Prepare Input"""
+
+
 # Load number of inputs in aggregation
 def get_raw_number_of_inputs_in_aggregation(embedding, clustering, KofFilename, mutant):
     inputs_in_aggregation = np.load("experiments_data/" + "_".join(["raw_inputs_in_aggregation_by_exp", str(embedding), str(clustering), str(KofFilename), str(mutant)]) + ".npy")
