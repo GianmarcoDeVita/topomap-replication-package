@@ -1,0 +1,18 @@
+\# TopoMap: A Feature-based Semantic Discriminator of the Topographical Regions in the Test Input Space 
+
+
+
+Analysis of the responses obtained through the human study. If you want to replicate the analysis on the MNIST dataset, run the following command in this folder: 
+
+
+
+``$python3 analyze\_results.py mnist``
+
+
+
+If you want to replicate the analysis on the CIFAR-10 dataset, run the following command in this folder: 
+
+
+
+``$python3 analyze\_results.py cifar10``
+
