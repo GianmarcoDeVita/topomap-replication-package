@@ -1,4 +1,4 @@
-# Replication package for the research paper "TopoMap: A Feature-based Semantic Discriminator of the Topographical Regions in the Test Input Space"
+# Replication package for the research paper "TopoMap: A Feature-based Discriminator of the Topographical Regions in the Test Input Space"
 
 This repository contains all the code needed to replicate the results in the aforementioned research paper. 
 There is a folder for each application subject.
